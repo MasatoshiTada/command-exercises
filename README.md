@@ -7,7 +7,7 @@
 
 # 演習一覧
 - [演習1 フォルダの移動](ex01-changing-folders.md)
-- [演習2 テキストファイルを読む](ex02-read.md)
+- [演習2 テキストファイルの読み書き](ex02-read-and-write.md)
 - [演習3 viエディタ](ex03-vi.md)
 - [演習4 ファイル操作](ex04-modifying-files.md)
 - [演習5 パーミッション](ex05-permission.md)

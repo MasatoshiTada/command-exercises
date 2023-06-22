@@ -1,1 +1,2 @@
 echo こんにちは
+echo hello
