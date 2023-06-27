@@ -180,7 +180,7 @@ $ ./p1/sample.sh
 cat: p1/sample.sh: Permission denied
 ```
 
-(6) 次のコマンドで、ユーザーにp1/sample.shの実行権限を与えてください。
+(6) 次のコマンドで、ユーザーにp1/sample.shの実行権限＋読み取り権限を与えてください。
 
 ```shell
 $ chmod 500 p1/sample.sh
