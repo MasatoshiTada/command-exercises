@@ -5,6 +5,9 @@
 - Intel版Mac
   - OSのフォルダ構成やコマンドの表示結果はMacのものです。しかし、コマンド自体はLinuxでも同じはずです。
 
+# 演習の前に
+[ショートカットキー](ex00-shortcuts.md)を覚えておきましょう。
+
 # 演習一覧
 - [演習1 フォルダの移動](ex01-changing-folders.md)
 - [演習2 テキストファイルの読み書き](ex02-read-and-write.md)
