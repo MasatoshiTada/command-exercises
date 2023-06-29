@@ -13,11 +13,11 @@ $ cd ~/command-exercises
 ```shell
 $ ls -alh ex06
 total 88
-drwxr-xr-x@  5 mac-mr9v2j001  staff   160B Jun 30 08:03 .
-drwxr-xr-x  19 mac-mr9v2j001  staff   608B Jun 30 08:06 ..
--rw-r--r--@  1 mac-mr9v2j001  staff   329B Jun 30 08:03 README.md
--rwxr-xr-x@  1 mac-mr9v2j001  staff    32K Jun 30 07:59 mycmd
--rw-r--r--@  1 mac-mr9v2j001  staff    83B Jun 30 07:57 mycmd.c
+drwxr-xr-x@  5 <ユーザー名>  staff   160B Jun 30 08:03 .
+drwxr-xr-x  19 <ユーザー名>  staff   608B Jun 30 08:06 ..
+-rw-r--r--@  1 <ユーザー名>  staff   329B Jun 30 08:03 README.md
+-rwxr-xr-x@  1 <ユーザー名>  staff    32K Jun 30 07:59 mycmd
+-rw-r--r--@  1 <ユーザー名>  staff    83B Jun 30 07:57 mycmd.c
 ```
 
 > mycmdが実行ファイルです。mycmd.cは、C言語で書かれたmycmdのソースコードです。
@@ -74,8 +74,10 @@ $ vi ~/.zshrc
 (3) ~/.zshrcファイルの先頭に以下の記述を追加してください。
 
 ```shell
-export PATH=~/command-exercises:$PATH
+export PATH=~/command-exercises/ex06:$PATH
 ```
+
+> 最後の`:$PATH`を書かなかった場合、元々のPATHの値が失われます。その結果、`ls`などのコマンドが使えなくなります。
 
 (4) ESCキーを謳歌して、viをコマンドモードにしてください。
 
