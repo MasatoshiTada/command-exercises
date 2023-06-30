@@ -1,6 +1,31 @@
 演習6 プログラムの実行
 ==================
 
+# 実行ファイルにコンパイル
+(1) 次のコマンドで、ex06フォルダに移動してください。
+
+```shell
+$ cd ~/command-exercises/ex06
+```
+
+(2) 次のコマンドで、C言語のソースコードmycmd.cを実行ファイルmycmdにコンパイルしてください。
+
+```shell
+$ gcc -o mycmd mycmd.c
+```
+
+(3) 次のコマンドで、ex06フォルダに実行ファイルmycmdが作成されたことを確認してください。
+
+```shell
+$ ls -alh
+total 88
+drwxr-xr-x@  5 <ユーザー名>  staff   160B Jun 30 15:22 .
+drwxr-xr-x  19 <ユーザー名>  staff   608B Jun 30 15:22 ..
+-rw-r--r--@  1 <ユーザー名>  staff   329B Jun 30 08:03 README.md
+-rwxr-xr-x@  1 <ユーザー名>  staff    32K Jun 30 15:22 mycmd
+-rw-r--r--@  1 <ユーザー名>  staff    95B Jun 30 08:08 mycmd.c
+```
+
 # 実行ファイルの実行確認①
 (1) 次のコマンドで、command-exercisesフォルダに移動してください。
 
@@ -19,8 +44,6 @@ drwxr-xr-x  19 <ユーザー名>  staff   608B Jun 30 08:06 ..
 -rwxr-xr-x@  1 <ユーザー名>  staff    32K Jun 30 07:59 mycmd
 -rw-r--r--@  1 <ユーザー名>  staff    83B Jun 30 07:57 mycmd.c
 ```
-
-> mycmdが実行ファイルです。mycmd.cは、C言語で書かれたmycmdのソースコードです。
 
 (3) 次のコマンドで、ex06/mycmdを実行してください。
 
