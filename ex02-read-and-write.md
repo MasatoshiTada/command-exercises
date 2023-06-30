@@ -55,9 +55,12 @@ $ tail -n 3 web-server.log
 (1) 次のコマンドで、web-server.logから`ERROR`が含まれる行のみを抽出してください。
 
 ```shell
-$ grep ERROR web-server.log
+$ cat web-server.log | grep ERROR
 2023-06-12T17:10:48.810022 ERROR Nginx040 failed!!!
 ```
+
+> - `grep ERROR web-server.log`でも同様です。
+> - `何らかのコマンド | grep キーワード`で、キーワードが含まれる行のみを表示できます。
 
 # ファイルの書き込み（追記）
 (1) 次のコマンドで、write.txtの内容を確認してください。
