@@ -14,6 +14,8 @@ $ cd ~/command-exercises/ex06
 $ gcc -o mycmd mycmd.c
 ```
 
+> このときに`xcrun: error: invalid active developer path...`というようなエラーメッセージが出た場合は、`xcode-select --install`を実行すると解決します（Xcode Command Line Toolsを再インストールしています）。
+
 (3) 次のコマンドで、ex06フォルダに実行ファイルmycmdが作成されたことを確認してください。
 
 ```shell
